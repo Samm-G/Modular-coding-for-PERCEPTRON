@@ -18,9 +18,13 @@ rm -rf .git
 
 git init
 
-git remote add origin <Your New Repository>
+git add .
+
+git commit -m "First Commit"
 
 git branch -M main
+
+git remote add origin <Your New Repository>
 
 git push -u origin main
 
