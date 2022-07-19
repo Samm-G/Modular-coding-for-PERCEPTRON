@@ -20,6 +20,8 @@ git init
 
 git add .
 
+/conda_env/ >> .gitignore
+
 git commit -m "First Commit"
 
 git branch -M main
